@@ -5,11 +5,9 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author - Hiyaaaaaaaaaaaaa
- * @author - Period 4B
- * @author - Id 236444
+ * @author - Hiya
+ * 
  *
- * @author - I received help from Mr. Kohl
  */
 public class EvilHangman
 {
@@ -34,8 +32,7 @@ public class EvilHangman
 	   debug = debug1;
        in =  new Scanner(System.in);
        
-       //there is 0 way that reading a file will be on the AP test
-       // whyyyy
+     
        
        inputWords(fileName);
       
@@ -124,7 +121,7 @@ public class EvilHangman
 
 
 	////////// PRIVATE HELPER METHODS //////////
-///nooooooooooooooooooooooooooooooooooooooooooooo
+
 	/**
 	 * Helper method for the constructor:
 	 * Inputs the word length from the user, reads in the words from
@@ -146,7 +143,7 @@ public class EvilHangman
        while(wordList.size()==0){
            System.out.print("Word Length: ");
            wordLength = in.nextInt();
-           //bad file name
+           
            
            
            while(file.hasNext()){
@@ -172,7 +169,7 @@ public class EvilHangman
 	 */
 	private String inputLetter()
 	{
-		return null;	// REPLACE
+		return null;	
 	}
 
 	/**
